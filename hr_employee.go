@@ -115,7 +115,7 @@ type HrEmployee struct {
 	StudyField                  *String    `xmlrpc:"study_field,omitempty"`
 	StudySchool                 *String    `xmlrpc:"study_school,omitempty"`
 	SubordinateIds              *Relation  `xmlrpc:"subordinate_ids,omitempty"`
-	TimesheetManagerId          *Many2One  `xmlrpc:"timesheet_manager_id,omitempty"`
+//	TimesheetManagerId          *Many2One  `xmlrpc:"timesheet_manager_id,omitempty"`
 	Tz                          *Selection `xmlrpc:"tz,omitempty"`
 	UserId                      *Many2One  `xmlrpc:"user_id,omitempty"`
 	UserPartnerId               *Many2One  `xmlrpc:"user_partner_id,omitempty"`
