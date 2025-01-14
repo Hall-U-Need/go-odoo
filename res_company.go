@@ -226,6 +226,7 @@ type ResCompany struct {
 	WriteUid                                    *Many2One  `xmlrpc:"write_uid,omitempty"`
 	XStudioIntercardId                          *Int       `xmlrpc:"x_studio_intercard_id,omitempty"`
 	XStudioPiedDePageFacture                    *String    `xmlrpc:"x_studio_pied_de_page_facture,omitempty"`
+	XStudioQrcodeAreaId                         *Int       `xmlrpc:"x_studio_qrcode_area_id,omitempty"`
 	Zip                                         *String    `xmlrpc:"zip,omitempty"`
 }
 
