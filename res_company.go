@@ -227,6 +227,7 @@ type ResCompany struct {
 	XStudioIntercardId                          *Int       `xmlrpc:"x_studio_intercard_id,omitempty"`
 	XStudioPiedDePageFacture                    *String    `xmlrpc:"x_studio_pied_de_page_facture,omitempty"`
 	XStudioQrcodeAreaId                         *Int       `xmlrpc:"x_studio_qrcode_area_id,omitempty"`
+	XStudioShortName                            *String    `xmlrpc:"x_studio_short_name,omitempty"`
 	Zip                                         *String    `xmlrpc:"zip,omitempty"`
 }
 
