@@ -227,6 +227,7 @@ type ResCompany struct {
 	XStudioCashpadInstallationId                *String    `xmlrpc:"x_studio_cashpad_installation_id,omitempty"`
 	XStudioGoogleStorecode                      *String    `xmlrpc:"x_studio_google_storecode,omitempty"`
 	XStudioIntercardId                          *Int       `xmlrpc:"x_studio_intercard_id,omitempty"`
+	XStudioNedapLocationId                      *Int       `xmlrpc:"x_studio_nedap_location_id,omitempty"`
 	XStudioPiedDePageFacture                    *String    `xmlrpc:"x_studio_pied_de_page_facture,omitempty"`
 	XStudioQrcodeAreaId                         *Int       `xmlrpc:"x_studio_qrcode_area_id,omitempty"`
 	XStudioShortName                            *String    `xmlrpc:"x_studio_short_name,omitempty"`
