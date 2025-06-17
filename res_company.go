@@ -54,6 +54,10 @@ type ResCompany struct {
 	BankJournalIds                              *Relation  `xmlrpc:"bank_journal_ids,omitempty"`
 	BaseOnboardingCompanyState                  *Selection `xmlrpc:"base_onboarding_company_state,omitempty"`
 	CashAccountCodePrefix                       *String    `xmlrpc:"cash_account_code_prefix,omitempty"`
+	CashpadApiUrl                               *String    `xmlrpc:"cashpad_api_url,omitempty"`
+	CashpadEmail                                *String    `xmlrpc:"cashpad_email,omitempty"`
+	CashpadInstallationId                       *String    `xmlrpc:"cashpad_installation_id,omitempty"`
+	CashpadToken                                *String    `xmlrpc:"cashpad_token,omitempty"`
 	CatchallEmail                               *String    `xmlrpc:"catchall_email,omitempty"`
 	CatchallFormatted                           *String    `xmlrpc:"catchall_formatted,omitempty"`
 	ChartTemplateId                             *Many2One  `xmlrpc:"chart_template_id,omitempty"`
